@@ -1,8 +1,10 @@
 
 export default function Home(){
-  return (<div>
-    <h1 style={{fontSize:28,fontWeight:600}}>ACE — Advanced Coatings Estimator</h1>
-    <p>Single-folder JS build to make deployment dead simple.</p>
-    <a href="/estimate/wizard" style={{display:'inline-block',padding:'10px 14px',border:'1px solid #88f',borderRadius:8,marginTop:12}}>Open Wizard</a>
-  </div>)
+  return (
+    <div className="card p-6">
+      <h1 className="text-xl font-bold mb-2">ACE — Advanced Coatings Estimator</h1>
+      <p className="text-ace-muted">Welcome! Click below to start a new estimate.</p>
+      <a href="/estimate/wizard" className="btn btn-primary mt-4">Start Wizard</a>
+    </div>
+  )
 }

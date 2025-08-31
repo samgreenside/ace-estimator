@@ -1,7 +1,12 @@
 
-export const metadata = { title: 'ACE Single (JS)', description: 'Advanced Coatings Estimator' }
-export default function RootLayout({ children }) {
-  return (<html lang="en"><body style={{background:'#0b1d1d',color:'#e8f0ef',fontFamily:'ui-sans-serif'}}>
-    <div style={{maxWidth:960,margin:'0 auto',padding:'24px'}}>{children}</div>
-  </body></html>)
+import "./globals.css";
+export const metadata = { title: "ACE", description: "Advanced Coatings Estimator" };
+export default function RootLayout({ children }){
+  return (
+    <html lang="en">
+      <body className="min-h-screen">
+        <div className="max-w-[1200px] mx-auto p-6">{children}</div>
+      </body>
+    </html>
+  );
 }

@@ -1,14 +1,14 @@
 
-# ACE Single (v1.0) — Plain JS
-Simplest possible Next.js app so Render config is trivial.
+# ACE Single UI (v1.1)
+- Dark teal + gold theme
+- Sidebar + stepper wizard (placeholder)
+- Easy Render deploy
 
 ## Local
 npm i
 npm run dev
-# http://localhost:3000
 
 ## Render
 Language: Node
 Build Command: npm i && npm run build
 Start Command: npm run start
-Health: /api/health
