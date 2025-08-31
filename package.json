@@ -1,12 +1,14 @@
 {
-  "name": "ace-quickstart-js",
+  "name": "ace-single",
   "private": true,
-  "workspaces": [
-    "apps/web"
-  ],
   "scripts": {
-    "dev": "npm run dev -w apps/web",
-    "build": "npm run build -w apps/web",
-    "start": "npm run start -w apps/web"
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
