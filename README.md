@@ -1,14 +1,9 @@
 
-# ACE Single UI (v1.1)
-- Dark teal + gold theme
-- Sidebar + stepper wizard (placeholder)
-- Easy Render deploy
+# ACE Single UI (v1.1 — fixed)
+- Tailwind moved to dependencies so Render installs it
+- Removed experimental config flag
 
-## Local
-npm i
-npm run dev
-
-## Render
+**Render settings**
 Language: Node
 Build Command: npm i && npm run build
 Start Command: npm run start
