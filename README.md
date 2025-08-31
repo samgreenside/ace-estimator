@@ -1,16 +1,19 @@
 
-# ACE Quickstart (v1.0)
-Minimal, deployable shell so you can click a link fast.
+# ACE Quickstart JS (v1.2)
+Plain JavaScript Next.js build to avoid TypeScript issues.
 
 ## Local
 ```bash
 npm i
 npm run dev -w apps/web
-# http://localhost:3000
+# Visit http://localhost:3000
 ```
 
 ## Deploy on Render
-- Go to https://render.com/deploy → New Web Service → Build from Git repo.
-- Build: `npm i && npm run build`
-- Start: `npm run start`
-- Done. Health: `/api/health`.
+- Go to Settings → set Language: **Node**
+- Build Command:
+  npm i && npm run build -w apps/web
+- Start Command:
+  npm run start -w apps/web
+- Then click Manual Deploy → Deploy latest commit
+- Check health: /api/health

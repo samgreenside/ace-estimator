@@ -1,5 +1,5 @@
 {
-  "name": "ace-quickstart",
+  "name": "ace-quickstart-js",
   "private": true,
   "workspaces": [
     "apps/web"
